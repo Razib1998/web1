@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    font-family: 'Foldit', cursive;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: tomato;
+}
+.menus{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+.btn-primary{
+    background: tomato;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
