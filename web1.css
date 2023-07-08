@@ -35,12 +35,38 @@ nav a{
 /* Header related style */
 .header{
 background-color: blanchedalmond;
+background-image: url(Screenshot\ 2023-07-08\ at\ 23.26.12.png) ;
+background-repeat: no-repeat;
+background-size: 300px;
+background-position: bottom right;
+padding-right: 200px;
+
 }
 .banner{
-    padding: 30px 30px 30px 120px ;
+    padding: 30px 30px 0px 120px ;
     display: flex;
     align-items: center;
+    justify-content:space-between;
 }
 .Profile-picture{
+    margin-left: 450px;
     
+}
+.Section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 25px;
+}
+.about{
+    background-color: #fff8f3;
+    border-radius: 20px;
+    padding: 100px;
+    margin-right: 130px 0px;
 }
