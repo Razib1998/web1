@@ -35,7 +35,7 @@ nav a{
 /* Header related style */
 .header{
 background-color: blanchedalmond;
-background-image: url(Screenshot\ 2023-07-08\ at\ 23.26.12.png) ;
+background-image: url(images/Screenshot\ 2023-07-08\ at\ 23.26.12.png);
 background-repeat: no-repeat;
 background-size: 300px;
 background-position: bottom right;
@@ -69,4 +69,23 @@ padding-right: 200px;
     border-radius: 20px;
     padding: 100px;
     margin-right: 130px 0px;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+   padding-top: 50px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 10px 120px;
+}
+.Skills-container{
+    display: flex;
+    justify-content: space-around;
 }
