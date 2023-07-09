@@ -103,8 +103,41 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
-.Resume-colum{
-    d
+.Resume-container{
+    display: flex;
+    gap: 70px;
 }
-   
+.Resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+.Resume-item-institue{
+   color: #757575;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 10px;
+
+}
+.Resume-item-discription{
+    color: #757575;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   margin-top: 10px;
+}
+.Resume-container hr{
+    margin: 25px ;
+}
+.Download-CV{
+ text-align: center;
+ color: #FFF;
+ font-size: 20px;
+ font-weight: 700;
+ margin-top: 50px;
+
+}
+
     
