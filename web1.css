@@ -174,4 +174,59 @@ font-weight: 700;
     width: 100%;
  
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .Skills-container, .about-info-container, .Resume-container{
+   flex-direction: column;
+    }
+        
+    }
+    #what-i-do-description{
+        padding: 10px ;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        padding: 0px;
 
+    }
+    .footer-colume{
+        width: 100%;
+    }
+    .Section-title, .section-discription{
+        text-align: left;
+    }
+    .contact, input[type="text"], .contact  input[type="email"], textarea{
+        width: 85%;
+    }
+    .about{
+        padding: 10px;
+
+    }
+   
+    
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+.Resume-container{
+    flex-direction: column;
+}
+.Skills-container{
+    flex-direction: column;
+}
+#what-i-do-description{
+    padding: 10px ;
+ }
+ .Section-title{
+       margin-right: 700px;
+      
+ }
+ .section-discription{
+    text-align: left;
+    margin-left: 10px;
+   
+ }
+ 
+  }
